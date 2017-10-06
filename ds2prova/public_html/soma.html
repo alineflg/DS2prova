@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Média Aluno</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+        <script src="soma.js" type="text/javascript"></script>
+        <script src="materialize/js/materialize.js" type="text/javascript"></script>
+        <link href="materialize/css/materialize.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="barramenu "><a href="#"><img src="materialize/img/logo.png" alt=""/><b>JOGOS DE MATEMÁTICA</b><img src="materialize/img/logo prefeitura.png" alt=""/></a>
+            
+        </div>
+       <div class="corpo">
+        <p><h3> <b>Desafio de Soma</b></h3>
+        <img src="materialize/img/somalogo.png" alt=""/>
+        <p></p>
+     <div class="container2">
+         
+         <p>  Acerte o resultado da Soma</p> 
+         
+          <input type="text" id="n1"/>
+          <p>+</p>
+           <input type="number" id="n2"/>
+           <p>= </p>
+            <input type="number" id="result"/>
+            
+             <button type="button" onclick="soma()" style="background-color:#6495ed; border-radius: 10px;">soma</button>
+         <input type="number" id="proximo"/>
+         <A HREF="http://localhost:8383/template/soma.html">Iniciar Agora</A><br><br>
+         
+         
+         
+         
+      
+    </div>
+           
+    </div>
+        <<script>
+            document.querySelector("#n1").value=Math.floor(Math.random() * 10);
+    document.querySelector("#n2").value=Math.floor(Math.random()*10);
+        </script>
+    </body>
+</html>

@@ -6,26 +6,32 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Jogos Matemáticos</title>
+        <title>Média Aluno</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="estilo.css"/>
-        <script src="nota.js"></script>
+        <script src="soma.js"></script>
         <script src="materialize/js/materialize.js" type="text/javascript"></script>
         <link href="materialize/css/materialize.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div class="barramenu "><a href="#"><img src="materialize/img/logo.png" alt=""/><b>JOGOS DE MATEMÁTICA</b></a>
+        <div class="barramenu "><a href="#"><img src="materialize/img/logo.png" alt=""/><b>JOGOS DE MATEMÁTICA</b><img src="materialize/img/logo prefeitura.png" alt=""/></a>
+            
         </div>
        <div class="corpo">
-           <p><h3> Seja Bem Vindo aos Jogos de Matemática</h3>
+           <p><h3> <b>Desafio de Subtração</b></h3>
        </p>
      <div class="container2">
-         <br>
-         <p>   Este é um desafio de Matemática, que consiste passar por quatro desafios, onde o aluno deve acertar o resultado de acordor com cada tipo de operação. </p>
-         <p>Somente após passar em uma etapa, o aluno pode ir para a próxima se acertar o resultado, se não permanecerá na mesma faze até que acerte</p>
-         <br>
-         <p> Para Iniciar o Jogo Clique Iniciar Agora</p><br>
+         
+         <p>  Acerte o resultado da Subtração</p> 
+         
+          <input type="text" id="n1"/>
+          <p>-</p>
+           <input type="number" id="n2"/>
+           <p>= </p>
+            <input type="number" id="result"/>
+             <button type="button" onclick="subtracao()" style="background-color:#6495ed; border-radius: 10px;">calcular</button>
+         
          <A HREF="http://localhost:8383/template/soma.html">Iniciar Agora</A><br><br>
          
          
